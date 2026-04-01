@@ -65,6 +65,24 @@ As a result, `month` is a valuable feature for forecasting.
 
 The median number of trips is lower during rainy hours, and the whole rainy distribution is shifted slightly downward. However, the overlap between rainy and dry conditions shows that rain is not the only factor affecting demand.
 
+## Difference in average trips by hour: Weekdays and Weekends 
+
+<img width="618" height="322" alt="image" src="https://github.com/user-attachments/assets/c46e9a60-5ea4-47a7-b683-f187ffc24320" />
+
+This graph clearly shows the difference between activity during the week and during the weekends. Looking at the data from during the week (the blue graph) we can clearly visualize the first peak around 8 in the morning, when most people go to work. After this peak the activity drops to a really low average before then climbing to the second peak of the day. This peak takes place around 5 in the afternoon when most people are done with work and are heading home. During the weekend (the orange graph) the trend is completely different. The amount of activity in the morning is really minimal and only starts climbing when we reach noon. After this, the trend holds for a few hours before going down. This can be caused by people sleeping in and only going for a bike trip in the afternoon when the temperature is at its highest, the trend really only starts to go down when the sun goes down in the evening. Another explanation for this behavior is tourism.
+
+## Difference in average trips during weekdays: Rain and No Rain 
+
+<img width="607" height="305" alt="image" src="https://github.com/user-attachments/assets/079b7353-df3d-4a13-acec-bae088ad170b" />
+
+In this graph we visualize the impact of weather on the activity during the week. We can clearly see a drop of activity when its raining but what stands out in this graph is the fact that the peaks remain intact. We can conclude here that work traffic plays a big part in this dataset.
+
+## Difference in average trips during weekend: Rain and No Rain 
+
+<img width="802" height="390" alt="image" src="https://github.com/user-attachments/assets/ec1b98f2-31e1-440a-933b-cf9653b3b4f8" />
+
+In this graph we visualise the impact of weather on the activity during the weekend. If we compare this graph against the one from during the week, we can see that weather has a bigger impact on activity during the weekends. This can be caused by the fact that less people are obliged to go to work during these days and tend to stay at home but another reason can be that tourism is at a lower amount when it rains. People tend to stay home or search for inside activities during these times.
+
 Rain is therefore a useful predictor, but it should be combined with time-based and seasonal features.
 
 ## Temperature vs Number of Trips
